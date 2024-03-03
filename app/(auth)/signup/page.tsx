@@ -1,7 +1,9 @@
-import Image from "next/image";
+import SignupComponent from "@/component/SignupComponent";
 
-export default function Signup() {
+export default function() {
   return (
-    <div className="h-screen w-screen bg-black text-white">this is signup page</div>
+    <div>
+      <SignupComponent />
+    </div>
   );
 }
